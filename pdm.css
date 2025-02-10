@@ -1,0 +1,96 @@
+
+/* COLOUR PALETTE
+------------------
+Focus Gray - #4B4B48
+Laser - #CBB367
+Domino - #91825A
+Hillary - #A4A474
+------------------*/
+
+
+/* FONTS */
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Fonts/Butler.woff);
+}
+
+
+
+/* TOP LOGO */
+
+
+/* NAVIGATION BAR */
+
+nav {
+    display: block;
+    max-width: 100%;
+    background-color: #cbb367;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #cbb367;
+}
+
+li {
+    display: inline;
+    float: right;
+    
+}
+
+
+li:first-child {
+    display: inline;
+    float: left;
+    
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: #4B4B48;
+    padding: 10px;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+
+.link a { 
+    font-family: myFirstFont;
+    letter-spacing: 1px;
+}
+
+
+.link a:hover {
+    text-decoration: underline;
+    color: #cbb367;
+    transition: 10ms ease-in-out;
+}
+
+
+
+/* Article */
+
+article {
+    display: block;
+    padding: 10px;
+    background-color: #cbb367;
+}
+
+
+.little {
+    color: #4B4B48;
+    font-family: myFirstFont;
+    letter-spacing: 0.1px;
+}
